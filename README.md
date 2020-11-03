@@ -1,5 +1,4 @@
 # Grand-Oeuvre
-Recueil de plans et façades de modulaires alchimiques
 Antimoine : 
 - pas encore testé monté, testé sur platine de prototypage
 Athanor : 
