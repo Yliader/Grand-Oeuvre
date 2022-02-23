@@ -10,9 +10,9 @@ Général :
 Antimoine : 
 - Module intéressant sur forme d'onde simple : carré triangle rampe et sinusoïde.
 - noise pour des samples, beaucoup de crètes
-- Non testé en séquenceur
+- Sequenceur assez basique
 
-Athanor : 
+Athanor : MODULE ABANDONNE, TROP INSTABLE
 - ̶A̶t̶t̶e̶n̶t̶i̶o̶n̶ ̶a̶u̶ ̶r̶é̶g̶l̶a̶g̶e̶ ̶d̶e̶ ̶l̶a̶ ̶t̶e̶n̶s̶i̶o̶n̶ ̶v̶i̶a̶ ̶l̶e̶s̶ ̶t̶r̶i̶m̶m̶e̶r̶s̶ ̶!̶ ̶S̶i̶ ̶l̶e̶ ̶L̶M̶1̶3̶7̶0̶0̶ ̶c̶h̶a̶u̶f̶f̶e̶,̶ ̶b̶a̶i̶s̶s̶e̶r̶ ̶l̶e̶ ̶r̶a̶t̶i̶o̶ ̶d̶e̶ ̶t̶e̶n̶s̶i̶o̶n̶  Problème résolu dans le nouveau fichier
 - R̶V̶2̶ ̶a̶ ̶e̶n̶l̶e̶v̶e̶r̶ ̶p̶o̶u̶r̶ ̶r̶e̶m̶p̶l̶a̶c̶e̶r̶ ̶p̶a̶r̶ ̶u̶n̶e̶ ̶r̶é̶s̶i̶s̶t̶a̶n̶c̶e̶ ̶d̶e̶ ̶p̶e̶t̶i̶t̶e̶ ̶v̶a̶l̶e̶u̶r̶ ̶o̶u̶ ̶u̶n̶ ̶t̶r̶i̶m̶m̶e̶r̶,̶ ̶e̶f̶f̶e̶t̶ ̶p̶e̶u̶ ̶p̶r̶o̶b̶a̶n̶t̶ ̶d̶e̶ ̶c̶e̶ ̶p̶o̶t̶e̶n̶t̶i̶o̶m̶è̶t̶r̶e̶ ̶s̶u̶r̶ ̶l̶a̶ ̶r̶é̶i̶n̶j̶e̶c̶t̶i̶o̶n̶ ̶e̶n̶ ̶H̶i̶-̶p̶a̶s̶s̶ ̶e̶t̶ ̶B̶a̶n̶d̶-̶p̶a̶s̶s̶ Résolu dans le nouveau fichier
 - Attention toujours à l'intensité du signal de contrôle du cutoff à régler avec les trimers de 50k
@@ -21,6 +21,9 @@ Athanor :
 Azoth : 
  - Concept abandonné car trop large pour peu d'intérêt en eurorack.
  - Montage complexe, ne se fier qu'au schéma en pdf
+ 
+ Azoth V2 :
+ - Module en réflexion
  
  Chaux :
  - Monté et testé 3 fois sans problème
@@ -50,3 +53,4 @@ Azoth :
  - Bruyant dans l'alim mais pas dans les sorties audio des modules ?
  - Ratio des clocks assez réduit, voir pour plus de rapport cyclique.
  - Même problème avec les potentiomètres que Chaux (voir solution plus haut) 
+ - Gros soucis de consomation --> structure des clocks abandonnées pour l'instant !
