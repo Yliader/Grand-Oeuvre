@@ -41,6 +41,8 @@ Azoth :
  Noces :
  - Saturation selon les signaux
  - Fonctionne très bien sur les signaux de synthèses mais peu sur les samples.
+ - Problèmes vis à vis du VCA, mettre la pin 2 du AD633 à la masse et couper le lien de la pin6 vers la pin 3 pour mettre la pin 6 à la masse aussi, enfin bref beaucoup de boulot quoi.
+ - Une V3 en préparation.
  
  Paon :
   ̶-̶ ̶B̶u̶g̶ ̶d̶e̶s̶ ̶s̶o̶r̶t̶i̶e̶s̶  Résolu sur le nouveau schéma : ajout d'AOP en tampon 
@@ -50,7 +52,7 @@ Azoth :
  - Je conseil l'utilisation du schéma simplement, les fichiers kicad sont à revoir niveau implantation
  
  Vitriol : 
- - Bruyant dans l'alim mais pas dans les sorties audio des modules ?
+ - Bruyant dans l'alim mais pas dans les sorties audio des modules ? --> problème de deport à la masse de la diode D8, mettre une résistance de 330ohms en série pour limiter la chute de tension.
  - Ratio des clocks assez réduit, voir pour plus de rapport cyclique.
  - Même problème avec les potentiomètres que Chaux (voir solution plus haut) 
- - Gros soucis de consomation --> structure des clocks abandonnées pour l'instant !
+ - Gros soucis de consomation --> structure des clocks à revoir !
